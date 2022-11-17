@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "smallangle"
+version = "0.1.0"
+description = ""
+authors = ["Isa Yusuf <isamuhyus24@gmail.com>"]
+readme = "README.md"
+packages = [{include = "smallangle", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.1"
+numpy = "^1.23.4"
+click = "^8.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
